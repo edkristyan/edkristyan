@@ -215,7 +215,7 @@ section{
 
 .myprofile h4{
     margin: 0 auto;
-    font-weight: 300;
+    font-weight: 300!important;
 }
 
 .myprofile li p{
@@ -249,7 +249,8 @@ figure{
 
 figcaption h3{
     margin: 0;
-    font-size: 1.8em;
+    font-size: 1.3em;
+    font-weight: 300;
 }
 
 .content {
