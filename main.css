@@ -1,0 +1,579 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700|Roboto+Mono|Roboto:300,400&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+}
+
+h1{
+    font-size: 4.5em;
+    font-weight: 300;
+}
+
+h4{
+    padding-top: .5em;
+    font-size: 1.3em;
+    font-weight: 300;
+}
+
+h3{
+    padding-top: .5em;
+    font-size: 1.3em;
+    font-weight: 400;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    text-align: center;
+    padding: .8em 1.2em;
+}
+
+.logo{
+    width: 130px;
+    font-weight: 500;
+    font-size: 2em;
+    margin: 0;
+}
+
+footer .logo{
+    width: 150px;
+    font-weight: 500;
+    font-size: 2em;
+    color: #fff;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li{
+    padding: 0;
+}
+
+nav ul {
+    position: fixed;
+    width: 60%;
+    top: 0;
+    right: 0;
+    text-align: left;
+    background: rgb(36, 41, 44);
+    height: 100%;
+    z-index: 10;
+    padding-top: 3em;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    padding: 1em 2em;
+    background-color: rgb(49, 55, 59);
+}
+
+nav ul li a:hover {
+    background-color: rgb(65, 73, 78);
+}
+
+.menu {
+    width: 30px;
+    margin-top: 40%;
+}
+
+.exit-btn {
+    margin: -1.3em auto .8em;
+    padding: 0 1.4em;
+    
+}
+
+.exit-btn{
+    width: 15px;
+    cursor: pointer;
+}
+
+.hide-mobile{
+    display: none ;
+}
+
+.hero-image{
+    padding-top: 4em;
+    width: 70%;
+    margin: 2em auto;
+}
+
+h4, .qoute{
+    position: relative;
+    z-index: 3;
+    margin: 0;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+section{
+    padding-bottom: 4em;
+}
+
+.blue-container{
+    width: 100%;
+    background: #124F67;
+    color: #fff;
+    padding: 1em 0 2em;
+    transform: skewY(-3deg);
+}
+
+.blue-container .container{
+    transform: skewY(3deg);
+}
+
+.blue-container-2{
+    width: 100%;
+    background: #124F67;
+    color: #fff;
+    transform: skewY(-3deg);
+    padding-top: 8.5%;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: -200;
+}
+
+.blue-container-2 .container{
+    transform: skewY(3deg);
+}
+
+.footer-container{
+    width: 100%;
+    background: #124F67;
+    color: #fff;
+    padding: 1em 0 2em;
+    margin-top: -3%;
+}
+
+.aboutme ul, li{
+    padding-bottom: 1.2em;
+}
+
+.aboutme li:first-child{
+    font-weight: 300;
+    font-size: 1.3em;
+    padding-bottom: 0;
+}
+
+.mypic{
+    width: 50%;
+    margin: 2em auto;
+}
+
+.dl-resume{
+    text-decoration: none;
+    color: #124F67;
+    background: #E9CB35;
+    padding: .5em;
+    border-radius: 20px;
+    width: calc(100% - 1em);
+    display: block;
+    font-size: 1.5em;
+}
+
+.myskills img{
+    width: 60px;
+    padding: .8em;
+}
+
+.myskills p{
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+.myskills li:last-child{
+    padding-bottom: 4em;
+}
+
+.myprofile li{
+    padding-bottom: 1.2em;
+}
+
+.myprofile h4{
+    margin: 0 auto;
+    font-weight: 300;
+}
+
+.myprofile li p{
+    margin-top: 0;
+    color: #D6D6D6;
+}
+
+.mywork{
+    margin-bottom: 2em;
+}
+
+.mywork img{
+    width: 100%;
+    background-color:  #100F67;
+    transition: ease-in-out 300ms;
+}
+
+.mywork img:hover{
+    cursor: pointer;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    transition: ease-in-out 500ms;
+}
+
+figure{
+   margin: 0;
+   text-align: center;
+   color: #000;
+   padding: .5em;
+}
+
+figcaption h3{
+    margin: 0;
+    font-size: 1.8em;
+}
+
+.content {
+    margin: 2em 0 5em;
+}
+
+.content .close-btn{
+    padding: 1.5em 0 .8em;
+}
+
+.content h3{
+    margin: 0;
+    padding: .8em 0;
+    font-size: 1.6em
+}
+
+.content .gallery{
+    margin: 0;
+    padding: .9em 0 1.8em
+}
+
+.content .gallery img{
+    width: 100%;
+    border: rgb(36, 41, 44, .4) solid 1px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
+    margin-bottom: 3em; 
+}
+
+
+.portfolio{
+    display: block;
+}
+
+.vector-content{
+    display: none;
+}
+
+.portrait-content{
+    display: none;
+}
+
+.project-content{
+    display: none;
+}
+
+footer ul li{
+    display: inline-block;
+}
+
+footer img {
+    width: 50%;
+}
+
+.footer-container{
+    padding: 0;
+}
+
+@media only screen and (min-width: 650px){
+
+    .hero-image{
+        width: 45%;
+        margin: 0;
+    }
+
+    .qoute{
+        width:  50%;
+        font-size: 1em;
+    }
+
+    p{
+        font-size: 1em;
+    } 
+
+    .mypic{
+        width: 40%;
+        margin: 2em auto;
+    }
+
+    h1{
+        font-size: 3em;
+        margin: 0;
+        padding: 1em 0 .7em;
+        
+    }
+
+    .aboutme li:first-child {
+        font-size: 1.2em;
+    }
+
+    .myskills img{
+        width: 75px;
+    }
+
+    footer img {
+        width: 75%;
+    }
+
+    .blue-container{
+        margin: 0;
+    }
+
+    .myprofile ul {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1.1em;
+        margin-bottom: 3em;
+    }
+
+    .myskills ul {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-gap: 1.1em;
+        margin-bottom: 3em;
+    }
+
+    .dl-resume{
+        width: calc(60% - 1em);
+        margin: 0 auto;
+    }
+
+    .mywork{
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        grid-gap: 10px;
+    }
+
+    .gallery{
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        grid-gap: 10px;
+    }
+    
+}
+
+@media only screen and (min-width: 875px){
+    
+    .aboutme ul {
+        display: grid;
+        grid-template-areas: 
+        'pic pic pic pic'
+        'qckInfo qckInfo info info';
+        grid-gap: 1.8em;
+    }
+    .pic{
+        grid-area: pic;
+    }
+
+    .qckInfo{
+        grid-area: qckInfo;
+        text-align: right;
+    }
+
+    .info{
+        grid-area: info;
+        text-align: left;
+    }
+    .dl-resume{
+        width: calc(50% - 1em);
+        margin: 0 auto;
+    }
+
+    .mywork{
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        grid-gap: 10px;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+
+    .container{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .hero-image{
+        width: 35%;
+    }
+
+    .mypic{
+        width: 75%;
+        margin: 2em auto;
+    }
+
+    .dl-resume{
+        width: calc(70% - 1em);
+        font-size: 1em;
+    }
+
+    .aboutme ul li:first-child{
+        padding-top: 35%;
+    }
+
+    .show-desktop{
+        display: block;
+        margin: 0 auto 13% auto;
+    }
+
+    .hide-desktop{
+        display: none;
+    }
+
+    nav ul{
+        position: inherit;
+        width: auto;
+        background: none;
+        height: auto;
+        display: flex;
+        padding-top: 0;
+    }
+
+    nav ul li{
+        float: left;
+    }
+
+    nav ul li a{
+        color: black;
+        background-color: inherit;
+    }
+
+    nav ul li a:hover{
+        background-color: inherit;
+    }
+
+    .mywork{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 1.1em;
+        margin: 0 auto;
+        padding-bottom: 4em;
+    }
+
+
+    .myskills{
+        width: 60%;
+    }
+
+    .myskills ul{
+        margin-bottom: 0;
+    }
+
+    .myskills img{
+        width: 50px;
+    }
+
+    .myskills ul li p {
+        font-size: 1.2em;
+    }
+
+    .aboutme ul {
+        display: grid;
+        grid-template-areas: 
+        '  qckInfo qckInfo pic pic  pic info info';
+        grid-gap: 1.8em;
+    }
+
+    footer img {
+        width: 50px;
+    }
+    
+    footer ul {
+        width: 50%;
+        margin: 0 auto;
+
+    }
+
+    .gallery{
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+    }
+
+}
+
+@media only screen and (min-width: 1440px){
+
+    .container{
+        width: 70%;
+    }
+
+    .hero-image{
+        width: 40%;
+    }
+
+    .aboutme ul li:first-child{
+        padding-top: 35%;
+    }
+
+    .aboutme ul li:last-child{
+        padding-top: 10%;
+    }
+
+    .myskills{
+        width: 50%;
+        margin: 2em auto;
+    }
+
+    .mywork{
+        width: 100%;
+        margin: 0 auto;
+        padding: 2em 0 10%;
+    }
+    .aboutme ul {
+        display: grid;
+        grid-template-areas: 
+        '  qckInfo qckInfo pic pic  pic info info';
+        grid-gap: 1.8em;
+    }
+    
+    .footer-logo{
+        padding: 0;
+    }
+
+}
+
+@media only screen and (min-width: 2560px){
+    .container{
+        width: 50%;
+    }
+    .myskills{
+        width: 30%;
+    }
+}
