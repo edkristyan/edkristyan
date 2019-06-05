@@ -258,6 +258,7 @@ figcaption h3{
 
 .content .close-btn{
     padding: 1.5em 0 .8em;
+    cursor: pointer;
 }
 
 .content h3{
